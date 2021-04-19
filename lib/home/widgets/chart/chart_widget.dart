@@ -6,6 +6,7 @@ class ChartWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(color: AppColors.white),
       height: 80,
       width: 80,
       child: Stack(
